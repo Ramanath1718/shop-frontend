@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "https://shop-backend-1s0o.onrender.com";
 
 export async function login(credentials) {
   const response = await fetch(`${API_URL}/login`, {
